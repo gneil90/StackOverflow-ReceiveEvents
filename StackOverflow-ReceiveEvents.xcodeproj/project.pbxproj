@@ -21,6 +21,7 @@
 		D073720A18F2E96C008AA8AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07371EC18F2E96C008AA8AC /* UIKit.framework */; };
 		D073721218F2E96C008AA8AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D073721018F2E96C008AA8AC /* InfoPlist.strings */; };
 		D073721418F2E96C008AA8AC /* StackOverflow_ReceiveEventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D073721318F2E96C008AA8AC /* StackOverflow_ReceiveEventsTests.m */; };
+		D073721F18F2E9FC008AA8AC /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D073721E18F2E9FC008AA8AC /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D073720F18F2E96C008AA8AC /* StackOverflow-ReceiveEventsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StackOverflow-ReceiveEventsTests-Info.plist"; sourceTree = "<group>"; };
 		D073721118F2E96C008AA8AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D073721318F2E96C008AA8AC /* StackOverflow_ReceiveEventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOverflow_ReceiveEventsTests.m; sourceTree = "<group>"; };
+		D073721D18F2E9FC008AA8AC /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		D073721E18F2E9FC008AA8AC /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				D07371FE18F2E96C008AA8AC /* ViewController.m */,
 				D073720018F2E96C008AA8AC /* Images.xcassets */,
 				D07371EF18F2E96C008AA8AC /* Supporting Files */,
+				D073721D18F2E9FC008AA8AC /* CustomView.h */,
+				D073721E18F2E9FC008AA8AC /* CustomView.m */,
 			);
 			path = "StackOverflow-ReceiveEvents";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D07371FF18F2E96C008AA8AC /* ViewController.m in Sources */,
+				D073721F18F2E9FC008AA8AC /* CustomView.m in Sources */,
 				D07371F918F2E96C008AA8AC /* AppDelegate.m in Sources */,
 				D07371F518F2E96C008AA8AC /* main.m in Sources */,
 			);

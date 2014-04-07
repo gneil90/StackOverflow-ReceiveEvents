@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomView.h
 //  StackOverflow-ReceiveEvents
 //
 //  Created by Yan Saraev on 4/7/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-- (IBAction)buttonPressed:(id)sender;
+@interface CustomView : UIView
 
 @end
